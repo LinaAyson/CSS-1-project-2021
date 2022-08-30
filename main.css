@@ -1,0 +1,109 @@
+    main {
+        min-height: 1000px;
+    }
+    /* STYLE FÖR LÄNKARNA */
+    
+    a:link {
+        color: rgb(2, 61, 2);
+        background-color: transparent;
+        text-decoration: none;
+        border-color: #036d2f;
+    }
+    
+    a:visited {
+        color: rgb(153, 185, 166);
+        background-color: transparent;
+        text-decoration: none;
+        border-color: #036d2f;
+    }
+    
+    a:hover {
+        color: rgb(5, 42, 2);
+        background-color: transparent;
+        border-color: #036d2f;
+    }
+    
+    a:active {
+        color: rgb(4, 95, 32);
+        background-color: transparent;
+        text-decoration: underline;
+        border-color: #036d2f;
+    }
+    /* TEST LINK */
+    
+    h5 {
+        font-size: 25px;
+        color: rgb(12, 1, 1);
+        border: solid 20px 2px;
+    }
+    
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(17, 63, 17);
+        font-size: large;
+        font-weight: 500;
+    }
+    
+    body {
+        background-color: rgb(229, 240, 229);
+    }
+    
+    h1 {
+        margin-top: 30px;
+        margin-left: 2px;
+        color: rgb(92, 160, 92);
+    }
+    
+    h2 {
+        color: rgb(66, 102, 66);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+    }
+    
+    .mask {
+        letter-spacing: 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .jumbotron {
+        min-height: 640px;
+    }
+    
+    .nav a {
+        color: rgb(11, 42, 2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    
+    .nav {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .fancy-border-radius {
+        border-radius: 0% 100% 0% 100% / 47% 77% 23% 53%;
+        /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
+        height: 50vh;
+        background: #036d2f;
+        background: -webkit-linear-gradient(to right, #eaeeeb, #eef0ef);
+        background: linear-gradient(to right, #d1e7d1, #c6f0d2);
+    }
+    
+    #info1 {
+        color: #2c2c2c;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: large;
+    }
+    
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .card {
+        display: inline-block;
+    }
+    
+    .linasKort {
+        max-width: 540px;
+    }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script src="https://kit.fontawesome.com/8f7577c5d3.js" crossorigin="anonymous"></script>
+    <!-- SEO OPTIMERING -->
+    <title>Gröna växter - Unika, lättskötta och svensk odlade - Blomstra</title>
+    <meta name="description"
+        content="På Blomstra hittar ni ett enormt sortiment av gröna trendiga växter, ovanliga växter och lättskötta gröna växter i alla dess former.">
+</head>
+
+<body>
+    <!-- Valde en NAVBAR från Bootstrap utan hamburgar menyn -->
+    <nav class="nav d-flex justify-content-between">
+        <!-- För att komma till startsidan -->
+        <a class="navbar-brand py-1" href="http://127.0.0.1:5500/index.html">
+            <!-- Valde en bild i adobe och stylade om den lite -->
+            <img src="AdobeStock_245117085.jpeg" alt="Blomstra Logo" width="100" height="100" class="d-inline-block ">
+            BLOMSTRA
+        </a>
+        <div class="d-flex my-auto">
+            <!-- Länkar till olika sidor -->
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/second.html#">Växter</a>
+            <a class="nav-link" href="http://127.0.0.1:5500/about.html">Om Blomstra</a>
+            <!-- Valde att ha med E-handeln men som disabled bara för att visa hur det kan se ut -->
+            <a class="nav-link disabled" href="#" tabindex="-1">E-handel</a>
+        </div>
+    </nav>
+    <div class="jumbotron text-center position-relative"
+        style="background-image: url(https://i1.wp.com/i.redd.it/vwp9zyu8lcx41.jpg); background-size: cover;">
+        <!-- använde mig av en mask för att få till lite snygg design -->
+        <div class="mask position-absolute bottom-0 p-3 col-lg-8">
+            <h1 class="display-5 text-white">Unika växter framodlade i Sverige.</h1>
+            <div class="mx-auto">
+                <p class="lead mb-4 text-white"> Sickla - Stockholm - est. 2020
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Här ville jag ha något extra och inte bara en vanlig border-radius så jag skapade en egen
+    som ska påminna lite om ett blad -->
+    <div class="fancy-border-radius">
+        <div class="container">
+            <div class="row">
+                <div class="p-3 col-lg-8">
+                    <h2 class="text-center py-2">BLOMSTRA</h2>
+                    <p class="p-2" id="info1">
+                        Välkommen till Blomstra! Här fokuserar vi på 100% svensk odlade växter.<br>
+                    <p style="font-size: large;">Hos Blomstra hittar du allt du behöver för att få till en riktigt
+                        härlig djungel känsla hemma. Vi har stort fokus på gröna krukväxter men du hittar även säsongs
+                        baserade växter så som citrusväxter, pelargoner eller julstjärnor
+                        lagom till advent.
+                    </p>
+                </div>
+            </div>
+            <p class="note">
+                <strong>Viktig information:</strong> Vår E-handel är under uppbyggnad. <br>Välkomna in till butiken så
+                länge!
+            </p>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color:#708078;">
+        <!-- Grid container -->
+        <div class="container p-3">
+            <h4 class="p-2">Prenumerera på vårat nyhetsbrev och få 10% rabatt!</h4>
+            <!-- Section: Form -->
+            <section class="sections">
+                <form>
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                Registrera din epost här
+                            </p>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-2">
+                                <input type="email" id="form5Example2" class="form-control" placeholder="Email" />
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-auto">
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Anmäl
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Section: Text -->
+            <section class="mb-1">
+                <p>
+                    <strong>Få både nyheter och inspiration i mailen. Anmäl dig redan idag!</strong>
+                </p>
+            </section>
+            <!-- Section: Social media -->
+            <section class="mb-1">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #7d9586"
+                    href="https://www.facebook.com" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #7d9586"
+                    href="https://www.instagram.com" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #7d9586"
+                    href="https://www.linkedin.com/in/lina-andersson-2069b8216/" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2021 Copyright:
+            <a class="text-white" href="https://blomstra.com/">Blomstra.se</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- MDB -->
+    <script src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
